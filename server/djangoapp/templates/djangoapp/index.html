@@ -14,12 +14,33 @@
 </head>
 
     <body>
-    <!-- Remove this line the first time you edit this file -->
-     This is the index page of your Django app!
-    <!--Add a nav bar here -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/dealers/">Dealers</a></li>
+                    <!-- Add more navigation links as needed -->
+                    <li><a href="/about_us/">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--
+        <h2>Dealers Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+            </tr>
+            {% for dealer in dealers %}
+            <tr>
+                <td>{{ dealer.name }}</td>
+                <td>{{ dealer.location }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        -->
 
-    <!--Add a dealer table here -->
-
+        <button onclick="window.location.href='/about_us/'">Learn More About Us</button>
     </body>
 
 </html>

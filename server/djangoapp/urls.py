@@ -8,9 +8,9 @@ urlpatterns = [
     # route is a string contains a URL pattern
     # view refers to the view function
     # name the URL
-
+    path(route='template', view=views.template, name='template'),
     # path for about view
-
+    path(route='about_us', view=views.about_us_view, name='about_us'),
     # path for contact us view
 
     # path for registration
