@@ -1,0 +1,18 @@
+pip install requirements.txt
+
+
+apikey: lUu8mzSyovzBEM4efnOFRHRbVKnB72wHWzpLMdOwNViW
+
+url: https://fe5a30f5-f24c-40ed-9b6e-d41fb0bae80f-bluemix.cloudantnosqldb.appdomain.cloud
+
+user: fe5a30f5-f24c-40ed-9b6e-d41fb0bae80f-bluemix
+
+endpoint1: https://us-south.functions.appdomain.cloud/api/v1/web/5e4602b5-5eee-44c0-82a3-c8909a33bcdd/dealership-package/get-dealership
+
+endpoint2: 
+
+endpoint3: 
+
+
+
+
