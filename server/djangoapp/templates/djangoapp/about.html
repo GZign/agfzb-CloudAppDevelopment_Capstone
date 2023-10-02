@@ -1,20 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>About Us - Dealership Review</title>
-    <!-- Link to Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+  </head>
+  <body>
+    <!--Add a nav bar here -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'djangoapp:index' %}"
+            >Best Car</a
+          >
+          <a class="navbar-brand" href="#">About Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <br />
     <div class="container">
-        <h1 class="mt-5">About Us</h1>
-        <p class="lead">Welcome to Best Cars dealership, home to the best cars in Uruguay. We sell domestic and imported cars at reasonable prices.</p>
+      <div class="page-header">
+        <h1>Best Cars</h1>
+      </div>
+      <hr />
+      <p>
+        Welcome to Best Cars dealership, home to the best cars in North
+        America/South America.
+      </p>
+      <p>We sell domestic and imported cars at reasonable prices.</p>
     </div>
 
-    <!-- Link to Bootstrap JS and jQuery (optional) -->
-    <!-- If you plan to use Bootstrap's JavaScript components -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <!-- Footer Navbar -->
+  </body>
 </html>

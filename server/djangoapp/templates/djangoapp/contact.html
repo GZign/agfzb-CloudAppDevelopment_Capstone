@@ -1,21 +1,59 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Contact Us</title>
-    <!-- Link to Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+  </head>
+  <body>
+    <!--Add a nav bar here -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'djangoapp:contact' %}"
+            >About Us</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <br />
     <div class="container">
-        <h1 class="mt-5">Contact Us</h1>
-        <p class="lead">Address: Dr. Carlos Vaz Ferreira 3478</p>
-        <p class="lead">Telephone: +598 2200 9649</p>
+      <div class="page-header">
+        <h1>Contact</h1>
+      </div>
+      <hr />
+      <p>Office : Colombia, CO 110731, CO, Area 52</p>
+      <p>Email : bestcarever@dealership.com.co</p>
+      <p>Telphone : + 57 317 821 8113</p>
     </div>
 
-    <!-- Link to Bootstrap JS and jQuery (optional) -->
-    <!-- If you plan to use Bootstrap's JavaScript components -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <!-- Footer Navbar -->
+    <footer
+      class="navbar navbar-light bg-light"
+      style="margin-top: 15px; bottom: 0; width: 100%"
+    >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'djangoapp:contact' %}"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

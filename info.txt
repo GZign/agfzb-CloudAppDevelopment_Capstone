@@ -1,7 +1,7 @@
 pip install requirements.txt
 
 
-apikey: lUu8mzSyovzBEM4efnOFRHRbVKnB72wHWzpLMdOwNViW
+apikey: ja47S84k4n4qF9GbWZnfmD0zml87R4KROizZbgoaZzRn
 
 url: https://fe5a30f5-f24c-40ed-9b6e-d41fb0bae80f-bluemix.cloudantnosqldb.appdomain.cloud
 
